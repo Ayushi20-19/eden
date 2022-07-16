@@ -6,7 +6,7 @@
 <hr/>
 
 ## Eden  ([explore](https://eden-ayushi-sub.netlify.app/))
-### Assignment- onbording ui with multi set progress form.
+### Assignment- onbording ui with multi step progress form.
 
 ---
 ### Technologies Used
