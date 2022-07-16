@@ -5,6 +5,7 @@ import FormTwo from "./FormTwo";
 import Formthree from "./FormThree";
 import FinalStep from "./FinalStep";
 import eden from "../asset/eden.png";
+
 const progressSteps = [
   { id: 1, name: "1" },
   { id: 2, name: "2" },
@@ -24,7 +25,7 @@ export default function Form() {
   return (
     <div>
       <div className='logo-name'>
-        <img src={eden} alt='' />
+        <img src={eden} alt='eden logo' />
         <h1>Eden</h1>
       </div>
       <div className='progess'>
@@ -55,6 +56,7 @@ export default function Form() {
       {step == "1" && <FormTwo />}
       {step == "2" && <Formthree />}
       {step == "3" && <FinalStep />}
+
       <div className='btn-wrapper'>
         {step !== 3 ? (
           <button
